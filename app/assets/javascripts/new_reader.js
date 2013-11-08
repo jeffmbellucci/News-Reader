@@ -4,7 +4,7 @@ window.NewReader = {
   Views: {},
   Routers: {},
   initialize: function() {
-    alert('Hello from Backboner Jams 99!');
+    alert('Hello from Backbone');
 		var feeds = new NewReader.Collections.Feeds();
 		feeds.fetch();
 		var $documentBody = $('body')
